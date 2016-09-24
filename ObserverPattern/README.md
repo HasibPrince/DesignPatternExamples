@@ -6,7 +6,7 @@ The object which is being watched is called the subject. The objects which are w
 #Example
 Let's say a program which maintains the statistics of Football. If something is happened in a football match, then different entities are needed to be notified. 
 In this case Observer Pattern is applicaple. such as, statistics of a player and a team are two entities. Here these two entities are needed to be notified when
-a goal is scored. Then this two entities will register with their observer to get notification, here Scoreboard is responsibple to track the goal. When Scoreboard
+a goal is scored. Then this two entities will register with their subject to get notification, here Scoreboard is the subject which is responsibple to track the goal. When Scoreboard
 will find that goal is scored, then he will send notification to all observers.
 
 #Evaluation
